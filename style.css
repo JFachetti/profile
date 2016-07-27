@@ -1,10 +1,30 @@
 body {
-    background: #EBEBEB;
+    background: linear-gradient(178deg, #ffffff, #cbcbcb);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 29s ease infinite;
+    -moz-animation: AnimationName 29s ease infinite;
+    animation: AnimationName 29s ease infinite;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color: #7d7d7d;
     font-size: 15px;
     line-height: 1.6em;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
 }
 
 .lewagon {
@@ -18,7 +38,7 @@ body {
   position: absolute;
   bottom: 0;
   height: 10px;
-  background: #D23333;
+  background: #f77066;
   left: 0;
   z-index: -1;
   width: 0;
@@ -60,10 +80,11 @@ h3 {
 
 a {
   color: #8DC6FF;
+  text-decoration: none;
 }
 
 a:hover {
-  color: #22313F;
+  color: #41a0ff;
 }
 
 .container {
@@ -140,4 +161,22 @@ td {
   height: 149px;
 }
 
-
+/* Bounce In */
+.hvr-bounce-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}

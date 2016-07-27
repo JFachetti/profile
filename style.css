@@ -88,7 +88,11 @@ a:hover {
 }
 
 .container {
-    width: 500px;
+    margin-left: 120px;
+}
+
+.container-fluid {
+    width: 50%;
     margin: 30px auto;
 }
 
@@ -161,6 +165,38 @@ td {
   height: 149px;
 }
 
+/* My SideBar */
+#sidebar {
+    background-color: #384047;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 120px;
+    text-align: center;
+}
+
+#sidebar ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+#sidebar li {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#sidebar a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #788188;
+}
+
+#sidebar a:hover {
+    color: #FAFAFA;
+}
+
+
 /* Bounce In */
 .hvr-bounce-in {
   display: inline-block;
@@ -201,4 +237,5 @@ td {
   -webkit-transform: scale(1.1) rotate(4deg);
   transform: scale(1.1) rotate(4deg);
 }
+
 

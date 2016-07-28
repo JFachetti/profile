@@ -164,12 +164,12 @@ td {
 
 /* My SideBar */
 #sidebar {
-    background-color: #384047;
+    background-color: #34495e;
     position: fixed;
     left: 0px;
     top: 0px;
     bottom: 0px;
-    width: 120px;
+    width: 100px;
     text-align: center;
 }
 
@@ -186,11 +186,18 @@ td {
 #sidebar a {
     text-decoration: none;
     font-size: 25px;
-    color: #788188;
+    color: #f0f8ff;
 }
 
 #sidebar a:hover {
     color: #FAFAFA;
+}
+
+#sidebar .wagon-end {
+  position: absolute;
+  bottom: 20px;
+  width: 50px;
+  left: 22px;
 }
 
 

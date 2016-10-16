@@ -2,6 +2,8 @@
 
 Thanks to Le Wagon for providing us the method to publish [GitHub Pages](https://jgoillot.github.io/profile/) 
 
-**Got a question?** Join us on [Twitter](twitter.com/jgoillot) or visit my [Website](http://jeremy-goillot.com/)
+> [jeremy-goillot.com/](http://jeremy-goillot.com/) &nbsp;&middot;&nbsp;
+> GitHub [@JGoillot](https://github.com/jgoillot) &nbsp;&middot;&nbsp;
+> Twitter [@JGoillot](https://twitter.com/jgoillot)
 
 
